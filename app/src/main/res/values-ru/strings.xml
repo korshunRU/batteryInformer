@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Battery Informer</string>
+
+
+    <string name="notification_real_time_desc">Сервисные оповещения</string>
+    <string name="notification_event_desc">Оповещения о событиях</string>
+
+    <string name="notification_real_time_text">Контроль заряда активирован.\nПоследнее
+        обновление данных: %s\nДиапазон мониторинга: от %d%% до %d%%</string>
+    <string name="notification_event_text">Уровень заряда батареи %s значения в %d%%</string>
+
+    <string name="event_low">опустился до минимального</string>
+    <string name="event_high">достиг максимального</string>
+
+    <string name="monitoring_range_title">Диапазон наблюдения</string>
+    <string name="silence_time_title">Время "тишины"</string>
+
+    <string name="monitoring_min_value">23</string>
+    <string name="monitoring_max_value">77</string>
+    <string name="button_ok">Сохранить</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Battery Informer</string>
+
+
+    <string name="notification_real_time_desc">Service notification</string>
+    <string name="notification_event_desc">Event notification</string>
+
+    <string name="notification_real_time_text">Battery monitoring activated.\nLast
+        data update: %s\nMonitoring range: from %d%% to %d%%</string>
+    <string name="notification_event_text">Battery level %s value in %d%%</string>
+
+    <string name="event_low">has dropped to the minimum</string>
+    <string name="event_high">has reached its maximum</string>
+
+    <string name="monitoring_range_title">Monitoring range</string>
+    <string name="silence_time_title">"Silence" time</string>
+
+    <string name="monitoring_min_value">23</string>
+    <string name="monitoring_max_value">77</string>
+    <string name="button_ok">Save</string>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#005697</color>
+    <color name="color_primary_dark">#004070</color>
+    <color name="color_accent">#e95338</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_success">#009688</color>
+    <color name="primary_text">#676767</color>
+    <color name="secondary_text">#9a9a9a</color>
+    <color name="blue_text">#aee5ff</color>
+    <color name="button_background">#e6e6e6</color>
+    <color name="item_background">#f2f2f2</color>
+    <color name="switch_mailing_color">#80abcb</color>
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="button_pressed">@color/button_background</color>
+
+    <color name="toast_warning">#FFC400</color>
+    <color name="toast_black">#000</color>
+</resources>

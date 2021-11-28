@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="monitoring_range_slider_values">
+        <item>@string/monitoring_min_value</item>
+        <item>@string/monitoring_max_value</item>
+    </array>
+</resources>

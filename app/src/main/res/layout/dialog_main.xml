@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_white"
+    android:paddingTop="15dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/monitoring_range_title"
+        style="@style/Text16Primary"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:baselineAligned="false">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/monitoring_min_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            android:gravity="end"
+            tools:text="23%"
+            style="@style/Text18Primary"/>
+
+        <com.google.android.material.slider.RangeSlider
+            android:id="@+id/monitoring_range_slider"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:valueFrom="@string/monitoring_min_value"
+            android:valueTo="@string/monitoring_max_value"
+            android:stepSize="1.0"
+            app:values="@array/monitoring_range_slider_values"
+            app:trackColorActive="@color/color_primary"
+            app:trackColorInactive="@color/switch_mailing_color"
+            app:thumbColor="@color/color_primary_dark"
+            app:labelStyle="@style/MyTooltip"
+            app:labelBehavior="gone"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/monitoring_max_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".1"
+            tools:text="77%"
+            style="@style/Text18Primary"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_ok"
+        android:textColor="@color/color_primary"
+        android:layout_gravity="center"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
